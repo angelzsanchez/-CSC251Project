@@ -133,7 +133,7 @@ public class Policy
    }
    
    // calculate & return price
-   public double calculatePolicyPrice()
+   public double getPolicyPrice()
    {
       double basefee = 600; //double instead of constant cause value may change
       final int MAXAGE = 50;
